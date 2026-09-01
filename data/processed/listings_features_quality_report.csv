@@ -1,0 +1,166 @@
+﻿variable,tipo_dato,tipo_variable,nulos,porcentaje_nulos,valores_unicos
+neighbourhood_cleansed,object,Categórica,0,0.0,11
+latitude,float64,Numérica continua,0,0.0,4897
+longitude,float64,Numérica continua,0,0.0,5569
+room_type,object,Categórica,0,0.0,4
+property_type_group,object,Categórica,0,0.0,4
+accommodates,int64,Numérica discreta,0,0.0,16
+bedrooms,float64,Numérica continua,0,0.0,14
+bathrooms_num,float64,Numérica continua,0,0.0,18
+price,float64,Objetivo,0,0.0,446
+minimum_nights,int64,Numérica discreta,0,0.0,21
+maximum_nights,int64,Numérica discreta,0,0.0,116
+instant_bookable,int8,Binaria,0,0.0,2
+host_is_superhost,int8,Binaria,0,0.0,2
+host_listings_count,int64,Numérica discreta,0,0.0,105
+number_of_reviews,int64,Numérica discreta,0,0.0,446
+number_of_reviews_ltm,int64,Numérica discreta,0,0.0,122
+has_reviews,int8,Binaria,0,0.0,2
+review_scores_rating,float64,Numérica continua,0,0.0,152
+review_scores_cleanliness,float64,Numérica continua,0,0.0,155
+review_scores_location,float64,Numérica continua,0,0.0,137
+availability_30,int64,Numérica discreta,0,0.0,31
+availability_365,int64,Numérica discreta,0,0.0,366
+room_type_group,object,Categórica,0,0.0,3
+neighbourhood_group,object,Categórica,0,0.0,10
+name_length,int16,Numérica discreta,0,0.0,71
+name_word_count,int16,Numérica discreta,0,0.0,15
+name_mentions_beach,int8,Binaria,0,0.0,2
+name_mentions_center,int8,Binaria,0,0.0,2
+name_mentions_luxury,int8,Binaria,0,0.0,2
+name_mentions_view,int8,Binaria,0,0.0,2
+name_mentions_pool,int8,Binaria,0,0.0,2
+amenities_count,int16,Numérica discreta,0,0.0,85
+has_wifi,int8,Binaria,0,0.0,2
+has_kitchen,int8,Binaria,0,0.0,2
+has_air_conditioning,int8,Binaria,0,0.0,2
+has_heating,int8,Binaria,0,0.0,2
+has_parking,int8,Binaria,0,0.0,2
+has_pool,int8,Binaria,0,0.0,2
+has_washer,int8,Binaria,0,0.0,2
+has_dryer,int8,Binaria,0,0.0,2
+has_tv,int8,Binaria,0,0.0,2
+has_balcony_or_terrace,int8,Binaria,0,0.0,2
+has_sea_view,int8,Binaria,0,0.0,2
+has_workspace,int8,Binaria,0,0.0,2
+has_elevator,int8,Binaria,0,0.0,2
+has_pets_allowed,int8,Binaria,0,0.0,2
+has_crib,int8,Binaria,0,0.0,2
+has_bbq,int8,Binaria,0,0.0,2
+has_gym,int8,Binaria,0,0.0,2
+has_hot_tub,int8,Binaria,0,0.0,2
+has_breakfast,int8,Binaria,0,0.0,2
+district,object,Categórica,0,0.0,11
+district_listing_count,int64,Numérica discreta,0,0.0,11
+district_area_km2,float64,Numérica continua,0,0.0,11
+district_listing_density_km2,float64,Numérica continua,0,0.0,11
+h3_res8,object,Categórica,0,0.0,151
+h3_res8_listing_count,int32,Numérica discreta,0,0.0,52
+h3_res8_competitor_count,int32,Numérica discreta,0,0.0,52
+h3_res8_area_km2,float64,Numérica continua,0,0.0,151
+h3_res8_density_km2,float64,Numérica continua,0,0.0,151
+h3_res9,object,Categórica,0,0.0,446
+h3_res9_listing_count,int32,Numérica discreta,0,0.0,71
+h3_res9_competitor_count,int32,Numérica discreta,0,0.0,71
+h3_res9_area_km2,float64,Numérica continua,0,0.0,446
+h3_res9_density_km2,float64,Numérica continua,0,0.0,446
+distance_malagueta_km,float64,Numérica continua,0,0.0,7449
+distance_pedregalejo_km,float64,Numérica continua,0,0.0,7448
+distance_el_palo_km,float64,Numérica continua,0,0.0,7449
+distance_calle_larios_km,float64,Numérica continua,0,0.0,7447
+distance_plaza_constitucion_km,float64,Numérica continua,0,0.0,7449
+distance_museo_picasso_km,float64,Numérica continua,0,0.0,7447
+distance_alcazaba_km,float64,Numérica continua,0,0.0,7448
+distance_centro_pompidou_km,float64,Numérica continua,0,0.0,7449
+distance_maria_zambrano_km,float64,Numérica continua,0,0.0,7449
+distance_aeropuerto_agp_km,float64,Numérica continua,0,0.0,7450
+distance_nearest_beach_km,float64,Numérica continua,0,0.0,7449
+nearest_beach_poi,object,Categórica,0,0.0,3
+distance_nearest_culture_km,float64,Numérica continua,0,0.0,7448
+nearest_culture_poi,object,Categórica,0,0.0,3
+distance_nearest_historic_center_km,float64,Numérica continua,0,0.0,7450
+nearest_historic_center_poi,object,Categórica,0,0.0,2
+distance_nearest_transport_km,float64,Numérica continua,0,0.0,7449
+nearest_transport_poi,object,Categórica,0,0.0,2
+amenities_count_phase2,int16,Numérica discreta,0,0.0,85
+amenity_auto_kitchen,int8,Binaria,0,0.0,2
+amenity_auto_wifi,int8,Binaria,0,0.0,2
+amenity_auto_hair_dryer,int8,Binaria,0,0.0,2
+amenity_auto_hot_water,int8,Binaria,0,0.0,2
+amenity_auto_iron,int8,Binaria,0,0.0,2
+amenity_auto_dishes_and_silverware,int8,Binaria,0,0.0,2
+amenity_auto_bed_linens,int8,Binaria,0,0.0,2
+amenity_auto_microwave,int8,Binaria,0,0.0,2
+amenity_auto_hangers,int8,Binaria,0,0.0,2
+amenity_auto_refrigerator,int8,Binaria,0,0.0,2
+amenity_auto_essentials,int8,Binaria,0,0.0,2
+amenity_auto_cooking_basics,int8,Binaria,0,0.0,2
+amenity_auto_tv,int8,Binaria,0,0.0,2
+amenity_auto_air_conditioning,int8,Binaria,0,0.0,2
+amenity_auto_washer,int8,Binaria,0,0.0,2
+amenity_auto_shampoo,int8,Binaria,0,0.0,2
+amenity_auto_toaster,int8,Binaria,0,0.0,2
+amenity_auto_heating,int8,Binaria,0,0.0,2
+amenity_auto_freezer,int8,Binaria,0,0.0,2
+amenity_auto_hot_water_kettle,int8,Binaria,0,0.0,2
+amenity_auto_coffee_maker,int8,Binaria,0,0.0,2
+amenity_auto_first_aid_kit,int8,Binaria,0,0.0,2
+amenity_auto_body_soap,int8,Binaria,0,0.0,2
+amenity_auto_wine_glasses,int8,Binaria,0,0.0,2
+amenity_auto_drying_rack_for_clothing,int8,Binaria,0,0.0,2
+amenity_auto_elevator,int8,Binaria,0,0.0,2
+amenity_auto_dedicated_workspace,int8,Binaria,0,0.0,2
+amenity_auto_room_darkening_shades,int8,Binaria,0,0.0,2
+amenity_auto_dining_table,int8,Binaria,0,0.0,2
+amenity_auto_self_check_in,int8,Binaria,0,0.0,2
+amenity_auto_shower_gel,int8,Binaria,0,0.0,2
+amenity_auto_cleaning_products,int8,Binaria,0,0.0,2
+amenity_auto_fire_extinguisher,int8,Binaria,0,0.0,2
+amenity_auto_long_term_stays_allowed,int8,Binaria,0,0.0,2
+amenity_auto_smoke_alarm,int8,Binaria,0,0.0,2
+amenity_auto_oven,int8,Binaria,0,0.0,2
+amenity_auto_extra_pillows_and_blankets,int8,Binaria,0,0.0,2
+amenity_auto_dishwasher,int8,Binaria,0,0.0,2
+amenity_auto_stove,int8,Binaria,0,0.0,2
+amenity_auto_lockbox,int8,Binaria,0,0.0,2
+amenity_auto_crib,int8,Binaria,0,0.0,2
+amenity_auto_free_street_parking,int8,Binaria,0,0.0,2
+amenity_auto_coffee,int8,Binaria,0,0.0,2
+amenity_auto_private_entrance,int8,Binaria,0,0.0,2
+amenity_auto_host_greets_you,int8,Binaria,0,0.0,2
+amenity_auto_free_washer_in_unit,int8,Binaria,0,0.0,2
+amenity_auto_clothing_storage,int8,Binaria,0,0.0,2
+amenity_auto_clothing_storage_closet,int8,Binaria,0,0.0,2
+amenity_auto_laundromat_nearby,int8,Binaria,0,0.0,2
+amenity_auto_ethernet_connection,int8,Binaria,0,0.0,2
+amenity_auto_outdoor_furniture,int8,Binaria,0,0.0,2
+amenity_auto_private_patio_or_balcony,int8,Binaria,0,0.0,2
+amenity_auto_blender,int8,Binaria,0,0.0,2
+amenity_auto_luggage_dropoff_allowed,int8,Binaria,0,0.0,2
+amenity_auto_patio_or_balcony,int8,Binaria,0,0.0,2
+amenity_auto_carbon_monoxide_alarm,int8,Binaria,0,0.0,2
+amenity_auto_high_chair,int8,Binaria,0,0.0,2
+amenity_auto_ac_split_type_ductless_system,int8,Binaria,0,0.0,2
+amenity_auto_single_level_home,int8,Binaria,0,0.0,2
+amenity_auto_bathtub,int8,Binaria,0,0.0,2
+within_500m_beach,int8,Binaria,0,0.0,2
+within_1km_beach,int8,Binaria,0,0.0,2
+within_1km_historic_center,int8,Binaria,0,0.0,2
+within_2km_historic_center,int8,Binaria,0,0.0,2
+within_1km_culture,int8,Binaria,0,0.0,2
+within_1km_transport,int8,Binaria,0,0.0,2
+within_5km_airport,int8,Binaria,0,0.0,2
+log1p_distance_malagueta_km,float64,Numérica continua,0,0.0,7449
+log1p_distance_pedregalejo_km,float64,Numérica continua,0,0.0,7448
+log1p_distance_el_palo_km,float64,Numérica continua,0,0.0,7448
+log1p_distance_calle_larios_km,float64,Numérica continua,0,0.0,7447
+log1p_distance_plaza_constitucion_km,float64,Numérica continua,0,0.0,7449
+log1p_distance_museo_picasso_km,float64,Numérica continua,0,0.0,7446
+log1p_distance_alcazaba_km,float64,Numérica continua,0,0.0,7448
+log1p_distance_centro_pompidou_km,float64,Numérica continua,0,0.0,7449
+log1p_distance_maria_zambrano_km,float64,Numérica continua,0,0.0,7449
+log1p_distance_aeropuerto_agp_km,float64,Numérica continua,0,0.0,7450
+log1p_distance_nearest_beach_km,float64,Numérica continua,0,0.0,7449
+log1p_distance_nearest_culture_km,float64,Numérica continua,0,0.0,7447
+log1p_distance_nearest_historic_center_km,float64,Numérica continua,0,0.0,7450
+log1p_distance_nearest_transport_km,float64,Numérica continua,0,0.0,7449
